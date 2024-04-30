@@ -12,23 +12,23 @@ global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
-global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
-global.github = process.env.GITHUB || "https://github.com/Astropeda/Asta-Md";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/P37NWrz.jpeg";
-global.devs = "2348039607375";
-global.sudo = process.env.SUDO || "2348039607375";
-global.owner = process.env.OWNER_NUMBER || "2348039607375";
+global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Kolkata";
+global.github = process.env.GITHUB || "https://www.instagram.com/nexxer_sama";
+global.gurl = process.env.GURL || "https://www.instagram.com/nexxer_sama";
+global.website = process.env.GURL || "https://www.instagram.com/nexxer_sama";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://wallpapercave.com/uwp/uwp3880188.jpeg";
+global.devs = "916003951523";
+global.sudo = process.env.SUDO || "918474879823";
+global.owner = process.env.OWNER_NUMBER || "916003951523";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
 global.warncount = process.env.WARN_COUNT || 3;
-global.disablepm = process.env.DISABLE_PM || "false";
+global.disablepm = process.env.DISABLE_PM || "true";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
 global.userImages = process.env.USER_IMAGES || "";
-global.waPresence = process.env.WAPRESENCE || "online";
+global.waPresence = process.env.WAPRESENCE || "unavailable";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
@@ -48,14 +48,14 @@ module.exports = {
   HANDLERS: process.env.PREFIX || "/",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "©ᴀsᴛᴀ ᴍᴅ",
-  author: process.env.PACK_AUTHER || "ᴀsᴛᴀ ᴍᴅ",
-  packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "ᴀsᴛᴀ ᴍᴅ",
-  ownername: process.env.OWNER_NAME || "ᴀsᴛᴀ",
+  caption: process.env.CAPTION || "🔰𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 : *N ᴇ x x ᴇ ʀ 様*",
+  author: process.env.PACK_AUTHER || "",
+  packname: process.env.PACK_NAME || "ㅤㅤ🔮ʜᴀɴᴅᴄʀᴀғᴛᴇᴅ ʙʏ :\n\n༺『🇳ᥱꪎꪎᥱʀ ꢺᴀ⃖ϻᴀቾ』༻",
+  botname: process.env.BOT_NAME || "𝚮𝚰𝚴𝚫𝚻𝚫",
+  ownername: process.env.OWNER_NAME || "༺ 𝚴ᥱꪎꪎᥱʀ ꢺᴀ⃖ϻᴀቾ ༻",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
-  REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
+  REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "34wcCGPoe3yaGtpiBZgx4SN7",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
