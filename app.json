@@ -1,15 +1,15 @@
 {
   "name": "asta-md@2.5.0",
   "description": "Simple WhatsApp Bot",
-  "logo": "https://github.com/Astropeda/Asta-Md/blob/main/lib/assets/logo.png?raw=true",
-  "keywords": ["Asta-Md", "asta", "Asta-Bot"],
+  "logo": "https://github.com/Nexxer777/Asta-Md/blob/main/lib/assets/logo.png?raw=true",
+  "keywords": ["Hinata-Md", "hinata", "Hinata-Bot"],
   "success_url": "/",
   "stack": "container",
 
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",
-      "value": "Astro",
+      "value": "𝚴ᥱꪎꪎᥱʀ ꢺᴀ⃖ϻᴀ 𓆩×͜×𓆪ꪾ",
       "required": true
     },
 
@@ -27,12 +27,12 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required": false,
-      "value": "ᴀsᴛᴀ-ᴍᴅ"
+      "value": "𝚮𝚰𝚴𝚫𝚻𝚫"
     },
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required": false,
-      "value": "Africa/Lagos"
+      "value": "Asia/kolkata"
     },
     "READ_COMMAND": {
       "description": " Read bot cmds",
@@ -67,12 +67,12 @@
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     "MSGS_IN_LOG": {
       "description": "Fill the value -true- if you want to see Messages in logs.",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "READ_MESSAGE": {
       "description": "Fill the value true if you want bot to read all messages.",
@@ -81,7 +81,7 @@
     },
     "DISABLE_PM": {
       "description": "Make it 'false' if you wanna run bot in your pm (if MODE is Public)",
-      "value": "false",
+      "value": "true",
       "required": false
     },
     "PREFIX": {
@@ -90,7 +90,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "2348039607375"
+      "value": "916003951523"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -102,7 +102,7 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "Asta Md",
+      "value": "",
       "required": false
     },
     "PACK_AUTHER": {
